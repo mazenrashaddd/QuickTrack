@@ -39,16 +39,16 @@ function Navbar() {
           </ul>
           <form className="d-flex" role="search">
             <button
-              formAction={"#cta"}
               className="btn cBtn"
-              type="submit"
-              onClick={() =>
+              type="button"
+              onClick={() => {
+                window.location.hash = "#cta"; // Set the hash without reloading the page
                 document
                   .getElementById("cta")
-                  .scrollIntoView({ behavior: "smooth" })
-              }
+                  .scrollIntoView({ behavior: "smooth" });
+              }}
             >
-              GET THE APP
+              Go to CTA
             </button>
           </form>
         </div>
