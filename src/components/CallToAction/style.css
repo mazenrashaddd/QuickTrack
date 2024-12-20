@@ -1,0 +1,30 @@
+.cCTATitle{
+    font-family: Gugi, sans-serif;
+    color: black;
+    font-size: 5rem;
+}
+
+.cCTABtn{
+    border: none;
+    border-radius: 0.8rem;
+    background-color: var(--primaryColor);
+    width: 80%;
+    padding: 0.9rem 2.5rem;
+    /* margin-top: 2rem; */
+    font-family: Inter, sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    transition: background-color 1s ease;
+}
+
+.cCTABtn:hover{
+    border: none;
+    background-color: var(--secondaryColor);
+    transition: background-color 0.5s ease;
+}
+
+@media (max-width: 750px){
+    .cCTATitle{
+        font-size: 4rem;
+    }
+}

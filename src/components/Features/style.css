@@ -1,0 +1,43 @@
+.cFeaturesTitle {
+  font-family: Gugi, sans-serif;
+  font-size: 4rem;
+  color: black;
+}
+
+@media (max-width: 750px) {
+  .cFeaturesTitle {
+    font-size: 4rem !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .cFeaturesTitle {
+    font-size: 5rem;
+  }
+}
+
+.cIcon {
+  font-size: 9rem;
+  color: var(--primaryColor);
+  margin-bottom: 1rem;
+}
+
+.cIconBorder {
+  padding: 2rem 0;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+@media (max-width: 750px) {
+  .cIconBorder {
+    box-shadow:none;
+  }
+}
+
+.cIconText {
+  font-family: Inter, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}

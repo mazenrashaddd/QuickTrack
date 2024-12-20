@@ -1,0 +1,25 @@
+.caboutSection {
+  margin-top: 5rem;
+}
+
+.cSectionTitle {
+  font-size: 4rem;
+  font-family: Gugi, sans-serif;
+  color: black;
+}
+
+@media (max-width: 750px) {
+  .cSectionTitle {
+    font-size: 4rem !important;
+  }
+}
+
+@media (max-width: 1000px) {
+    .cSectionTitle {
+      font-size: 5rem;
+    }
+  }
+
+.descriptionText{
+    font-family: Inter, sans-serif;
+}

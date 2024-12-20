@@ -1,0 +1,42 @@
+.heroSection {
+  height: 39rem ;
+}
+.cBackgroundImage {
+  background-image: url("../../assets//images/HeroImages/backgroundImageTransparent.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: 100% 100%;
+}
+
+@media (max-width: 750px) {
+  .heroSection {
+    height: 13rem;
+  }
+  .cBackgroundImage {
+    display: none;
+  }
+  .heroSection h1 {
+    /* margin-left: -3rem !important; */
+    font-size: 3rem !important;
+  }
+}
+
+@media (max-width: 750px) {
+  .heroSection h3 {
+    /* margin-left: -3rem !important; */
+    font-size: 1.5rem !important;
+  }
+}
+
+.heroSection h1 {
+  font-family: Gugi, sans-serif;
+  /* width: 40rem; */
+  font-size: 5rem;
+  color: var(--primaryColor);
+}
+.heroSection h3 {
+  font-family: Gugi, sans-serif;
+  /* width: 30rem; */
+  font-size: 2rem;
+  color: var(--secondaryColor);
+}

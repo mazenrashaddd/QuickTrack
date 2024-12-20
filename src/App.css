@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  --primaryColor: #1e90ff;
+  --secondaryColor: #ff6347;
+  background-color: #f6f6f6 !important;
+  height: 100%;
+}
