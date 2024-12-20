@@ -38,7 +38,16 @@ function Navbar() {
             </li>
           </ul>
           <form className="d-flex" role="search">
-            <button formAction={"#cta"} className="btn cBtn" type="submit">
+            <button
+              formAction={"#cta"}
+              className="btn cBtn"
+              type="submit"
+              onClick={() =>
+                document
+                  .getElementById("cta")
+                  .scrollIntoView({ behavior: "smooth" })
+              }
+            >
               GET THE APP
             </button>
           </form>
